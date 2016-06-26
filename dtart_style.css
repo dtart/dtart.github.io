@@ -4,7 +4,8 @@ body
 }
 a
 {
-	cursor: default;
+	cursor: pointer;
+	cursor: hand;
 	font-size: 32px;
 	text-decoration: none;
 	color: #030021;
@@ -33,11 +34,11 @@ a:hover
 	list-style-type: none;
 	text-align: center;
 }
-#nav ul li 
-{ 
-	display: inline; 
+#nav ul li
+{
+	display: inline;
 }
-#desc 
+#desc
 {
 	position: absolute;
 	left: 110px; bottom:50px;
