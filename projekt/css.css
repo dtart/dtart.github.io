@@ -1,0 +1,33 @@
+body { background-color: rgb(255, 255, 255); background-image: url('img/baner_bg.gif'); background-repeat: repeat-x; margin: 0px; font-family: Arial; 
+overflow: scroll }
+
+a { text-decoration: none; color: rgb(153, 0, 0); }
+#all_container { width: 980px; margin: auto; position: relative; }
+
+#baner0 { width: 980px; height: 318px; background-image: url('img/baner0.jpg'); background-repeat: no-repeat; background-position: left top; position: relative; }
+#baner1 { width: 980px; height: 318px; background-image: url('img/baner1.jpg'); background-repeat: no-repeat; background-position: left top; position: relative; }
+
+#ikony_gorne { font-size: 11px; position: relative; top: 10px; text-align: right; right: 120px; }
+a.ikony_gorne { color: rgb(198, 201, 208); text-decoration: none; margin-left: 17px; }
+a.ikony_gorne:hover { color: rgb(239, 241, 245); text-decoration: none; }
+
+
+#menu { top: 54px; position: relative; color: rgb(92, 94, 99); font-size: 11px; padding-left: 34px; width: 700px; }
+
+
+.navMenu a { color: rgb(92, 94, 99); text-decoration: none; }
+.navMenu a:hover { color: rgb(200, 40, 43); text-decoration: none; }
+
+
+.head { font-family: Georgia; font-size: 30px; color: rgb(153, 0, 0); margin-bottom: 10px; }
+
+
+#tytul_tekstu { top: 10px; position: relative; color: rgb(92, 94, 99); font-family: Verdana; font-size: 16px; padding-left: 34px; padding-top: 10px; width: 900px; text-decoration: underline;}
+
+#tekst { top: 20px; position: relative; color: rgb(92, 94, 99); font-family: Verdana; font-size: 14px; padding-left: 34px; padding-top: 10px; width: 900px; }
+
+.navMenu {margin: 0; padding: 0; list-style: none; }
+   
+
+.navMenu  > li {  margin: 10px 10px; float:left; padding: 0px 10px 0;  }
+li.active { background-image:url(img/active.gif);background-repeat:repeat-x;padding: 10px 10px 0;height:36px;margin-top:0px}

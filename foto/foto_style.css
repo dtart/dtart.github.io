@@ -1,0 +1,32 @@
+body
+{
+	font-family: Georgia;
+	background-color: black;
+	color: white;
+}
+#main
+{
+	position: relative;
+	margin: auto;
+	top: 50px;
+	width: 700px; height: 303px;
+	background-image: url('img/foto_tlo.jpg');
+	background-repeat: no-repeat;
+}
+#header
+{
+	position: absolute;
+	top: 0px; left: 330px;
+}
+#contact
+{
+	position: absolute;
+	top: 150px; left: 350px;
+}
+#desc 
+{
+	position: absolute;
+	top: 80px; left: 350px;
+	font-size: 16px;
+
+}
